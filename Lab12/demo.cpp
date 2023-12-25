@@ -31,7 +31,10 @@ int main(){
 	for(int i = 0; i < 5; i++){
 		cout << "arr[" << i << "] = " << arrPointer[i] << endl;
 	}
-	
+	//Hien thi gia tri cua cac phan tu trong mang
+	for(int i = 0; i < 5; i++){
+		cout << "arr[" << i << "] = " << arr[i] << endl;
+	}
 	//Con tro kep => 1 con tro tro den dia chi cua 1 con tro khac
 	int** addressNumberPointer = &numberPointer;
 	cout << addressNumberPointer << endl;
